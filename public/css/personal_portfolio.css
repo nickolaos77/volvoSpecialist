@@ -1,0 +1,85 @@
+
+.relative {
+    position: relative;
+    left: 1200px;    
+}
+.darkgrey{
+  background:lightgrey;
+    width:295px
+}
+
+.part1 {background:url(https://41.media.tumblr.com/c0ea23ab54eb129071ede1f339c1b2b1/tumblr_ny480sxoiR1umoka7o1_540.jpg); 
+     
+    background-repeat: repeat; 
+    background-position:center center;
+    background-attachment:fixed; 
+    background-size:cover; 
+    height:auto; 
+    width:100%;
+   
+    position: relative;
+    top:10px;
+        
+
+}
+.part2 {background:url(https://40.media.tumblr.com/8d1af478a6ec9924a6c357bd490e87e5/tumblr_ny4h0tqrO61umoka7o1_1280.jpg);
+    background-repeat: no-repeat; 
+    background-position:center center;
+    background-attachment:fixed; 
+    background-size:cover; 
+    height:auto; 
+    width:100%;
+    z-index:-1; 
+    position:relative;
+}
+
+.part3
+{background:url(https://40.media.tumblr.com/fc776dc26db1ee147d33c15068336e70/tumblr_ny4t5tlu3Q1umoka7o1_540.jpg);
+    background-repeat: no-repeat; 
+    background-position:center center;
+    background-attachment:fixed; 
+    background-size:cover; 
+    height:auto; 
+    width:100%;
+    
+    position:absolute; 
+}
+
+.row-content {
+    margin: ;
+    padding: 15% 0px 15% 0px;
+    border-bottom: 1px solid;
+    min-height:auto;
+    position:relative;
+   
+
+}
+
+	
+.PortImg{ background:url(https://40.media.tumblr.com/89df4083692cb55f0102ae63e2a0354e/tumblr_ny4wc4Y2Ot1umoka7o1_540.jpg);
+    position: relative;
+    float: left;
+    width:  auto;
+    height:auto;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+     z-index:1000;     
+
+}
+
+
+.pad {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+.pic:hover { opacity: 0.7; filter: alpha(opacity=30); } 
