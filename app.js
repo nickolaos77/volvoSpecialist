@@ -14,8 +14,23 @@ var handlebars      = require('express-handlebars').create({
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
-app.get('/', function(req,res){  //see https://github.com/request/request#custom-http-headers
+app.get('/', function(req,res){  
     res.render('home');
+});
+app.get('/contact', function(req,res){ 
+    res.render('contact');
+});
+
+app.get('/about', function(req,res){ 
+    res.render('about');
+});
+
+app.get('/faq', function(req,res){ 
+    res.render('faq');
+});
+
+app.get('/awards', function(req,res){ 
+    res.render('awards');
 });
 app.use(express.static(__dirname+ '/public'));
 app.listen(PORT, function(){
