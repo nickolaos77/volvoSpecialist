@@ -45,16 +45,16 @@ font-size:17px;
 line-height:28px;
 font-weight:300;
 font-family:Arial;
-color:rgb(255, 255, 255);
+color:#CCCCCC;
 text-decoration:none;
-background-color:#0896b8;
+background-color:#4D4D4D;
 padding:8px;
 border-width:0px;
 border-color:rgb(255, 214, 88);
 border-style:none;
 position:absolute;
 white-space:nowrap;
-opacity: 0.60 !important;       
+opacity: 1 !important;       
 }
 
 
