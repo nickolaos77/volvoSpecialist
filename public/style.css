@@ -3012,6 +3012,12 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	right: 50px;
 }
 
+.slider-caption-bottom-left {
+	top:auto;
+    right:auto;
+    bottom: 60px;
+	left: 50px;
+}
 
 /* Slider Arrows
 -----------------------------------------------------------------*/
