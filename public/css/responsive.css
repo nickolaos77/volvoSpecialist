@@ -241,7 +241,7 @@
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
 
 	#wrapper {
 		width: 100%;
@@ -1010,7 +1010,7 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1199px) {
 
 	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid),
 	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide { height: 400px !important; }

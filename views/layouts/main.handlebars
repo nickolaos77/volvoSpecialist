@@ -33,7 +33,7 @@
 
     <!-- Document Title
 	============================================= -->
-    <title>Volvo Specialist</title>
+    <title>Foreing Car Service</title>
 
     <style>
         .demos-filter {
@@ -156,12 +156,12 @@
 
 				<div class="container clearfix">
 
-					<div id="primary-menu-trigger" style='text-align:left'><i class="icon-reorder"></i></div>
+					<div id="primary-menu-trigger" style='text-align:left; margin-left:10px'><i class="icon-reorder"></i></div>
 
 					<!-- Logo
 					============================================= -->
 					<div id="logo"  style='margin-left:5% !important'>
-						<a href="home" class="standard-logo" ><img src="myimages/logo.png" alt="Logo"></a>
+						<a href="home" class="standard-logo" ><img src="images/logo.png" alt="Logo"></a>
 						
 					</div><!-- #logo end -->
 
@@ -170,12 +170,14 @@
 					<nav id="primary-menu" class="not-dark">
 
 						<ul>
-							<li class="current" ><a href="/"><div>Home</div></a>
-							</li>
-                            <li><a href="about" style="color: #1ABC9C"><div>About us</div></a></li>
-						    <li><a href="faq" style="color: #1ABC9C"><div>FAQ</div></a></li>
-                            <li><a href="awards" style="color: #1ABC9C"><div>Awards</div></a></li>
-                            <li><a href="contact" style="color: #1ABC9C"><div>Contact</div></a></li>
+                            
+                            <li class="current" ><a href="tel:2077829300"><div class='btn btn-success' style="font-family: 'Raleway', sans-serif; font-weight: bold; font-size: 13px; letter-spacing:1px; background-color:#1ABC9C; padding-top:0px; padding-bottom:0px">Call Us</div></a></li>
+                            <li class="current"  id='basic-modal'><a href="#" ><div class='btn btn-success' style="font-family: 'Raleway', sans-serif; font-weight: bold; font-size: 13px; letter-spacing:1px; background-color:#1ABC9C; padding-top:0px; padding-bottom:0px">Make an appointment</div></a></li>
+							<li class="current"  ><a href="/"><div>Home</div></a></li>
+                            <li><a href="about" style="color: #1ABC9C;"><div>About us</div></a></li>
+						    <li><a href="faq" style="color: #1ABC9C;"><div>FAQ</div></a></li>
+                            <li><a href="awards" style="color: #1ABC9C;"><div>Awards</div></a></li>
+                            <li><a href="contact" style="color: #1ABC9C;"><div>Contact</div></a></li>
 						</ul>
 
 					</nav><!-- #primary-menu end -->
@@ -183,12 +185,20 @@
 				</div>
 
 			</div>
+            
+            
+            
+            
 
 		</header><!-- #header end -->
 
-        <!-- #header end -->
+        <!-- modal content -->
+<!--
+		<div id="basic-modal-content">
+			<IFRAME SRC="http://www.extremewrench.com/ApptPickModelEmbed.asp?Embedded=True&Validationid=262443882" WIDTH=425px Height=550px FRAMEBORDER=0 SCROLLING=NO allowTransparency=true ></IFRAME>		
+		</div>
+-->
 
-        
         {{{body}}}
 
 
@@ -299,14 +309,6 @@
                                     </a>
                                     <a href="https://www.facebook.com/volvospecialistmaine/"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
                                 </div>
-                                <div class="col-md-6 clearfix">
-                                    <a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-                                        <i class="icon-rss"></i>
-                                        <i class="icon-rss"></i>
-                                    </a>
-                                    <a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-                                </div>
-
                             </div>
 
                         </div>
@@ -352,6 +354,8 @@
 	============================================= -->
         <script type="text/javascript" src="/js/jquery.js"></script>
         <script type="text/javascript" src="/js/plugins.js"></script>
+        <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+
 
         <!-- Footer Scripts
 	============================================= -->
