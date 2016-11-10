@@ -29,6 +29,12 @@ app.get('/faq', function(req,res){
     res.render('faq');
 });
 
+//remove when done
+app.get('/stefanou', function(req,res){ 
+    res.render('stefanou');
+});
+
+
 app.get('/awards', function(req,res){ 
     res.render('awards');
 });
